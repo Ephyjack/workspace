@@ -95,3 +95,100 @@ header {
     border-radius: 20px;
     box-shadow: 15px 15px 40px rgba(30, 58, 47, 0.15);
 }
+
+/* --- Features Section --- */
+.Feature {
+    background-color: #FFFFFF; 
+}
+
+#feature-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature-modal {
+    background-color: #F9F8F3; 
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(30, 58, 47, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.feature-modal:hover {
+    transform: translateY(-5px); 
+}
+
+.feature-modal h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #1E3A2F;
+}
+
+.feature-modal p {
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* --- CTA Section --- */
+.CTA {
+    background-color: #1E3A2F; 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 100px 5%;
+}
+
+.CTA-Container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.CTA-Container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.CTA-Container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.CTA-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Button Styling */
+.CTA-actions button {
+    background-color: #FF6F61; 
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.CTA-actions button:hover {
+    background-color: #e55a4d; 
+    transform: translateY(-2px);
+}
+
+.CTA-actions button a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1rem;
+    display: block; 
+}
